@@ -1,4 +1,4 @@
-package com.vllenin.basemvp
+package com.vllenin.basemvp.base
 
 import android.util.Size
 import kotlinx.coroutines.ExperimentalCoroutinesApi

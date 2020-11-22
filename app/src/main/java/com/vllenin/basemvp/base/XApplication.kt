@@ -1,4 +1,4 @@
-package com.vllenin.basemvp
+package com.vllenin.basemvp.base
 
 import android.app.Application
 import android.os.Handler

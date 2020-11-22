@@ -1,4 +1,4 @@
-package com.vllenin.basemvp
+package com.vllenin.basemvp.base
 
 import android.app.Activity
 import android.content.Context
@@ -22,7 +22,8 @@ object SystemUtils {
 
     fun checkDeviceHasNotch(context: Context): Boolean {
         val density = context.resources.displayMetrics.density
-        val height = getStatusBarHeight(context)
+        val height =
+            getStatusBarHeight(context)
         val heightDp = (height / density).toInt()
 
         return heightDp !in HEIGHT_STATUS_BAR_NORMAL_MIN..HEIGHT_STATUS_BAR_NORMAL_MAX
@@ -68,8 +69,10 @@ object SystemUtils {
     }
 
     fun getNavigationBarSize(context: Context): Point? {
-        val appUsableSize: Point = getAppUsableScreenSize(context)
-        val realScreenSize: Point = getRealScreenSize(context)
+        val appUsableSize: Point =
+            getAppUsableScreenSize(context)
+        val realScreenSize: Point =
+            getRealScreenSize(context)
 
         // navigation bar on the side
         if (appUsableSize.x < realScreenSize.x) {

@@ -1,8 +1,8 @@
 package com.vllenin.basemvp.extensions
 
 import android.view.View
-import com.vllenin.basemvp.OnSingleClickListener
-import com.vllenin.basemvp.OnSingleClickListener.Companion.MIN_CLICK_INTERVAL_NORMAL
+import com.vllenin.basemvp.base.OnSingleClickListener
+import com.vllenin.basemvp.base.OnSingleClickListener.Companion.MIN_CLICK_INTERVAL_NORMAL
 
 /**
  * Created by Vllenin on 8/7/20.

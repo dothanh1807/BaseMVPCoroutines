@@ -1,4 +1,4 @@
-package com.vllenin.basemvp
+package com.vllenin.basemvp.base
 
 import android.os.SystemClock
 import android.view.View

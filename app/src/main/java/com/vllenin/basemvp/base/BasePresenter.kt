@@ -1,7 +1,5 @@
 package com.vllenin.basemvp.base
 
-import com.vllenin.basemvp.IBaseView
-import com.vllenin.basemvp.IDBAccessProtocols
 import kotlinx.coroutines.*
 import java.lang.ref.WeakReference
 

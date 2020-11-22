@@ -23,7 +23,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.vllenin.basemvp.*
-import com.vllenin.basemvp.IBaseView.Companion.VIEW_NONE
+import com.vllenin.basemvp.base.IBaseView.Companion.VIEW_NONE
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

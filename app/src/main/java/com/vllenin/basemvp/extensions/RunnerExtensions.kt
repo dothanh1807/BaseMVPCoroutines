@@ -1,6 +1,6 @@
 package com.vllenin.basemvp.extensions
 
-import com.vllenin.basemvp.XApplication
+import com.vllenin.basemvp.base.XApplication
 import kotlinx.coroutines.*
 import java.util.*
 import kotlin.concurrent.schedule
